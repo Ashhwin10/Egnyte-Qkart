@@ -16,6 +16,7 @@ const Login = () => {
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
+
   const [loading, setLoading] = useState(false);
 
   // TODO: CRIO_TASK_MODULE_LOGIN - Fetch the API response
