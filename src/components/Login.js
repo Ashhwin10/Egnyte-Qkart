@@ -45,7 +45,7 @@ const Login = () => {
       } else {
         enqueueSnackbar(
           "Something went wrong. Check that the backend is running, reachable and returns valid JSON.",
-          { variant: "error" }
+          { variant: "error" },
         );
       }
     }
